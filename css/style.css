@@ -193,7 +193,7 @@ h1{
   }
   .grid-container {
       margin: 0 auto;
-      width: 1200px;
+      width: 1225px;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px 200px 200px;
     grid-template-rows: 300px 300px 300px;
@@ -276,7 +276,15 @@ input{
     height: 60px;
     width: 170px;
      font-size: 18px;
+     -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
 }
+.btn-form:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);}
+
 .form-text{
     width: 550px;
 }
@@ -375,7 +383,6 @@ input{
  
  .btn{
      background-color: brown;
-     border-radius: 10px;
      padding: 15px;
      margin-top: 50px;
      color:white;
@@ -383,12 +390,18 @@ input{
      cursor: pointer;
      border: 1px solid white;
      width: 200px;
+     -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
  }
  .btn:hover{
     padding: 15px;
     width: 220px;
     font-size: 22px;
     background-color:#d82525;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
  }
  .blog{
      color: white;
