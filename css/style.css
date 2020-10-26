@@ -273,7 +273,7 @@ input{
     color: white;
     cursor: pointer;
     height: 60px;
-    width: 170px;
+    width: 200px;
      font-size: 18px;
      -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
@@ -283,7 +283,9 @@ input{
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);}
-
+.big{
+    text-transform: uppercase;
+}
 .form-text{
     width: 550px;
 }
