@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php
-//проверяем, существуют ли переменные в массиве POST
-if(!isset($_POST['name']) and !isset($_POST['email'])){
- ?> 
+
     <div class="width-site">
     <div class="position-left">
         <img src="img/logo.png">
@@ -175,7 +172,7 @@ if(!isset($_POST['name']) and !isset($_POST['email'])){
     </div>
     <div class="fotter">
         <div class="folov-form" id="form">
-            <form action="send.php" method="POST"> 
+            <form action="" method="POST"> 
                <input class="form_input" name="name" type="text" placeholder="Auskteez Tran" required>
                <input class="form_input" name="email" type="email" placeholder="Your email..."required>
                <input class="form_input" name="phone" type="tel" placeholder="Your phone number...">
