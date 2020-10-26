@@ -256,7 +256,6 @@ h1{
   }
   #section5{
     background-image: url(../img/9.jpg);
-
     height: 500px;
     margin: 0 auto;
 }
@@ -406,3 +405,83 @@ input{
  .blog{
      color: white;
  }
+ #section7{
+    background-image: url(../img/10.jpg);
+    height: 800px;
+    margin: 0 auto;
+}
+.section7{
+    width: 335px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.fotter{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.folov-form{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+.text-adress{
+    padding-top: 100px;
+}
+.text-adress >p{
+    width: 260px;
+}
+.form_input{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #00c4c482;
+    color: white;
+    border: 0;
+}
+textarea {
+    width: 500px;
+    height: 200px; 
+    resize: none; 
+    background-color: #00c4c482;
+    font-size: 15px;
+    border: 0;
+}
+.form_input::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+ }
+ textarea::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+ }
+ .footer{
+     width: 200px;
+     text-transform: uppercase;
+     padding-left: 180px;
+ }
+ .form_input:focus{
+    background-color: #00c4c4;
+    opacity: 1;
+    border-left: 3px solid blue;
+    color: #fff;
+}
+textarea:focus{
+    background-color: #00c4c4;
+    opacity: 1;
+    border-left: 3px solid blue;
+    color: #fff;
+}
+#footer {
+    padding: 20px 0;
+    background-color: #282828;
+    color: #a3a3a3;
+    width: 1500px;
+    margin: 0 auto;
+}
+.red-text {
+color: red;
+}
+.bl-8 {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+}
