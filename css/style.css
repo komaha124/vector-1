@@ -285,6 +285,7 @@ input{
     -o-transform: scale(1.05);}
 .big{
     text-transform: uppercase;
+    margin-top: 10px;
 }
 .form-text{
     width: 550px;
@@ -457,7 +458,7 @@ textarea {
  .footer{
      width: 200px;
      text-transform: uppercase;
-     padding-left: 180px;
+     padding-left: 170px;
  }
  .form_input:focus{
     background-color: #00c4c4;
