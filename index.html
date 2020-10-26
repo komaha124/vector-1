@@ -119,8 +119,8 @@
            <p class="form-text">Dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <form action="" method="POST">
-                <input type="email" placeholder="Your email address..." required>
+                <form action="https://formspree.io/f/mwkwogpa" method="POST">
+                <input name="email" type="email" placeholder="Your email address..." required>
                 <button class="btn-form" type="submit">SUBSCRIBE</button>
             </form>
         </div>
@@ -172,7 +172,7 @@
     </div>
     <div class="fotter">
         <div class="folov-form" id="form">
-            <form action="https://formspree.io/f/mwkwogpa" method="post"> 
+            <form action="https://formspree.io/f/mwkwogpa" method="post" onsubmit="javascript:return validate('form_id','email');"> 
                <input class="form_input" name="name" type="text" placeholder="Auskteez Tran" required>
                <input class="form_input" name="email" type="email" placeholder="Your email..."required>
                <input class="form_input" name="phone" type="tel" placeholder="Your phone number..." required>
@@ -209,6 +209,16 @@
                         return false;
                 });
         });
+        </script>
+        <script>
+            function validate(form_id,email) {
+   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+   var address = document.forms[form_id].elements[email].value;
+   if(reg.test(address) == false) {
+      alert('Введите корректный e-mail');
+      return false;
+   }
+}
         </script>
 </body>
 </html>
